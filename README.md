@@ -1,7 +1,7 @@
 # Red-Engine
 Welcome To Red-Engine!
 # Bulding
-For Bulding Refer To These Instructions (https://github.com/RedWindower/Red-Engine/blob/main/Bulding.md)
+For Bulding Refer To [These Instructions](http://tinyurl.com/These-Intructions) 
 # About Red-Engine
 Red Engine Is A FNF Engine Inspired By Kade And Pysch Engine.
 Red Engine Is A Improved Version Of Pysch Engine.
