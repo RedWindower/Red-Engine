@@ -9,7 +9,7 @@ import options.OptionsState;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var pyschEngineVersion:String = '1.2'; // This is also used for Discord RPC
+	public static var pyschEngineVersion:String = '1.3'; // This is also used for Discord RPC
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
