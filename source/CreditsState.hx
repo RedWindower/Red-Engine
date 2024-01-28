@@ -39,7 +39,9 @@ class CreditsState extends MusicBeatState{
 
 		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 		    ['Red Engine Team']
-		    ['RedWindows',		'windows',		'Main Programmer and Head of Red Engine 1.3.1',					 'https://www.youtube.com/channel/UCm1G284iUwnobBQHzHiOFSw',		'#FF0000'],
+		    ['RedWindows',		'windows',		'Main Programmer and Head of Red Engine 1.3.1',                                          'https://www.youtube.com/channel/UCm1G284iUwnobBQHzHiOFSw',		'#FF0000'],
+		    ['Special Thanks']
+			['A.L.X. AFK',		'face',		'Code For Custom Options.txt',					 'https://www.youtube.com/@ALXAFK',		'#FFA500'],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer and Head of Psych Engine',					 'https://ko-fi.com/shadowmario',		'444444'],
 			['Riveren',				'riveren',			'Main Artist/Animator of Psych Engine',						 'https://twitter.com/riverennn',		'14967B'],
