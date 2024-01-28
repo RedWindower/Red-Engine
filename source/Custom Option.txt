@@ -1,0 +1,39 @@
+class YourOptionNameOption extends Option
+{
+ public function new(desc:String)
+ {
+  super();
+  description = desc;
+ }
+
+ public override function press():Bool
+ {
+  FlxG.save.data.youroptionname = !FlxG.save.data.youroptionname;
+  display = updateDisplay();
+  return true;
+ }
+
+ private override function updateDisplay():String
+ {
+  return FlxG.save.data.youroptionname ? "your option on" : "your option off";
+ }
+}
+
+-And the conditional:
+
+FlxG.save.data.youroptionname
+
+-how?
+
+if (FlxG.save.data.youroptionname)
+{
+
+}
+
+if (!FlxG.save.data.youroptionname)
+{
+
+}
+-do not forget to change the "youroptionname" in their name that they want to give them.
+
+-done! :)
