@@ -556,7 +556,7 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Red Engine 1.4.2 by'], 40);
+					createCoolText(['Red Engine 1.4.3 by'], 40);
 					#else
 					createCoolText(['RedWindows']);
 					#end
