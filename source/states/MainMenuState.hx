@@ -10,6 +10,7 @@ import options.OptionsState;
 class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.7.3'; // This is also used for Discord RPC
+	public static var redEngineVersion:String = '0.1.0';
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -17,10 +18,7 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
-		#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
-		#if !switch 'donate', #end
 		'options'
 	];
 
@@ -87,6 +85,10 @@ class MainMenuState extends MusicBeatState
 			menuItem.screenCenter(X);
 		}
 
+		var REVer:FlxText = new FlxText(12, FlxG.height - 64, 0, "Red Engine v" + redEngineVersion, 12);
+		REVer.scrollFactor.set();
+		REVer.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		add(REVer);
 		var psychVer:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		psychVer.scrollFactor.set();
 		psychVer.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -161,17 +163,6 @@ class MainMenuState extends MusicBeatState
 								MusicBeatState.switchState(new StoryMenuState());
 							case 'freeplay':
 								MusicBeatState.switchState(new FreeplayState());
-
-							#if MODS_ALLOWED
-							case 'mods':
-								MusicBeatState.switchState(new ModsMenuState());
-							#end
-
-							#if ACHIEVEMENTS_ALLOWED
-							case 'awards':
-								MusicBeatState.switchState(new AchievementsMenuState());
-							#end
-
 							case 'credits':
 								MusicBeatState.switchState(new CreditsState());
 							case 'options':
