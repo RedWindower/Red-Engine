@@ -17,7 +17,7 @@ to start you off, disabling Videos should be simple, simply Delete the line `"VI
 same goes for *Lua Scripts*, comment out or delete the line with `LUA_ALLOWED`, this and other customization options are all available within the `Project.xml` file
 
 ## Credits:
-*RedWindows - RE Programmer
+* RedWindows - RE Programmer
 * Shadow Mario - Programmer
 * Riveren - Artist
 
