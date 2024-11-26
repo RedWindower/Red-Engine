@@ -1,4 +1,4 @@
-# Psych Engine Build Instructions
+# Psych/Red Engine Build Instructions
 
 * [Dependencies](#dependencies)
 * [Building](#building)
