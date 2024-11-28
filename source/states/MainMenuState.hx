@@ -16,10 +16,7 @@ import options.OptionsState;
 
 class MainMenuState extends MusicBeatState
 {
-   
-
-
-    public static var reVersion:String = '0.1.0';
+    public static var reVersion:String = '0.1.2';
     public static var psychEngineVersion:String = '0.7.3';
     public static var curSelected:Int = 0;
 

@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <TextureAtlas imagePath="coolLogo.png">
-<SubTexture name="logoBounce0000" x="0" y="926" width="511" height="195" frameX="-385" frameY="-264" frameWidth="1280" frameHeight="720" />
-<SubTexture name="logoBounce0001" x="740" y="0" width="626" height="237" frameX="-328" frameY="-243" frameWidth="1280" frameHeight="720" />
-<SubTexture name="logoBounce0002" x="0" y="0" width="740" height="281" frameX="-271" frameY="-221" frameWidth="1280" frameHeight="720" />
-<SubTexture name="logoBounce0003" x="0" y="281" width="633" height="240" frameX="-324" frameY="-241" frameWidth="1280" frameHeight="720" />
-<SubTexture name="logoBounce0004" x="740" y="237" width="577" height="219" frameX="-352" frameY="-252" frameWidth="1280" frameHeight="720" />
-<SubTexture name="logoBounce0005" x="0" y="521" width="545" height="207" frameX="-368" frameY="-258" frameWidth="1280" frameHeight="720" />
-<SubTexture name="logoBounce0006" x="545" y="521" width="531" height="201" frameX="-375" frameY="-261" frameWidth="1280" frameHeight="720" />
-<SubTexture name="logoBounce0007" x="0" y="728" width="521" height="198" frameX="-380" frameY="-262" frameWidth="1280" frameHeight="720" />
-<SubTexture name="logoBounce0008" x="521" y="728" width="517" height="197" frameX="-382" frameY="-263" frameWidth="1280" frameHeight="720" />
-<SubTexture name="logoBounce0009" x="511" y="926" width="515" height="195" frameX="-383" frameY="-264" frameWidth="1280" frameHeight="720" />
-<SubTexture name="logoBounce0010" x="0" y="1121" width="513" height="195" frameX="-384" frameY="-264" frameWidth="1280" frameHeight="720" />
-<SubTexture name="logoBounce0011" x="513" y="1121" width="513" height="195" frameX="-384" frameY="-264" frameWidth="1280" frameHeight="720" />
-<SubTexture name="logoBounce0012" x="1366" y="0" width="511" height="195" frameX="-385" frameY="-264" frameWidth="1280" frameHeight="720" />
-<SubTexture name="logoBounce0013" x="0" y="926" width="511" height="195" frameX="-385" frameY="-264" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0000" x="2496" y="1231" width="1147" height="613" frameX="-67" frameY="-73" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0001" x="0" y="682" width="1213" height="649" frameX="-34" frameY="-55" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0002" x="0" y="0" width="1279" height="682" frameX="-1" frameY="-38" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0003" x="1279" y="0" width="1217" height="651" frameX="-32" frameY="-54" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0004" x="1213" y="682" width="1185" height="633" frameX="-48" frameY="-63" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0005" x="0" y="1331" width="1167" height="623" frameX="-57" frameY="-68" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0006" x="1167" y="1331" width="1157" height="619" frameX="-62" frameY="-70" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0007" x="2496" y="0" width="1153" height="616" frameX="-64" frameY="-71" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0008" x="2496" y="616" width="1150" height="615" frameX="-65" frameY="-72" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0009" x="0" y="1954" width="1149" height="613" frameX="-66" frameY="-73" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0010" x="1149" y="1954" width="1147" height="613" frameX="-67" frameY="-73" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0011" x="2296" y="1954" width="1147" height="613" frameX="-67" frameY="-73" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0012" x="0" y="2567" width="1147" height="613" frameX="-67" frameY="-73" frameWidth="1280" frameHeight="720" />
+<SubTexture name="logoBounce0013" x="2496" y="1231" width="1147" height="613" frameX="-67" frameY="-73" frameWidth="1280" frameHeight="720" />
 </TextureAtlas>
